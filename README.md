@@ -7,8 +7,7 @@ This project used a web-based application that reads RSS feeds, which included J
 
 ## How Works
 
-I was tasked with writing the remaining specifications and tests in Jasmine to complete the suite.
-I used Jasmine to write a number of tests for the application. These check the underlying logic as well as the event handling and DOM manipulation.
+Wrote JavaScript unit tests using jasmine for a small app that calls RSS feeds from several sources.
 
 The results of all tests are displayed in a Jasmine container at the bottom of the browser. These list the tests performed and indicate which ones met the stated specifications. When a test fails, Jasmine produces an error message and trace for the failure.
 
