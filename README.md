@@ -1,53 +1,52 @@
 # Java Script Testing
 Udacity Projects
-# [Unit Testing with Jasmine]
 
-In this game you have a Player and Enemies (Bugs). The goal of the player is to reach the water, without colliding into any one of the enemies. The player can move left, right, up and down. The enemies move in varying speeds on the paved block portion of the scene. Once a the player collides with an enemy, the game is reset and the player moves back to the start square. Once the player reaches the water the game is won.
+# Unit Testing with Jasmine
 
-## Demo
+In this project was web-based application that reads RSS feeds, that included Jasmine and an complete test suite. 
 
-[![demo](./images/demo.gif)](http://brenopolanski.github.io/udacity-classic-arcade-game-clone/)
+## How Works
 
-> [Check it live](http://brenopolanski.github.io/udacity-classic-arcade-game-clone/).
+I was tasked with writing the remaining specifications and tests in Jasmine to complete the suite.
+I used Jasmine to write a number of tests for the application. These check the underlying logic as well as the event handling and DOM manipulation.
 
-## Usage
+## Getting Started
+Download the GitHub source code. Open the .css,fonts,jasmine and js and html files with a text editor. To open the index.html file with any browser.
 
-In order to play the game properly, consider the following steps:
+### Prerequisites
 
-1. Clone project:
+  - Any browser  It is supported by most web browsers including Chrome, Firefox, Safari, internet Explorer, Edge, Opera, etc.
+  - Text editor.
+  
+### Built With
 
-    ```
-    $ [sudo] git clone git@github.com:brenopolanski/udacity-classic-arcade-game-clone.git
-    ```
+The memory game project uses three technologies: 
 
-2. Serve the application:
+* CSS -  Cascading Style Sheets
+* HTML - HyperText Markup Language 
+* JavaScript - JavaScript is a programming language for the web.
+* Jasmine -  Is an open source testing framework for JavaScript.
 
-    ```
-    $ [sudo] python -m SimpleHTTPServer
-    ```
+### Development
 
-3. Open the game:
+All tests are located in jasmine/spec/feedreader.js.
+ 
+The following test were implemented for:
+```sh
+On feedreader.js file
+```
+* RSS Feeds: 
+  AllFeeds variable has been defined and that it is not empty and ensures it has a URL defined and that the URL is not empty.
+* The menu:
+  Tests to make sure that the menu element is hidden by default and the menu changes visibility when the menu icon is clicked.
+* Initial :
+   Test that ensures when the loadFeed function is called and completes its work.
+* New Feed Selection:
+  Test that ensures when a new feed is loaded.
 
-    ```
-    $ open "http://localhost:8000"
-    ```
+License
+----
 
-## Browser Support
+Free Sofware
 
-![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png)
---- | --- | --- | --- | --- |
-IE 9+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -m "Add some feature"`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request  :)
-
-English is the universal language nowadays, so please don't create or comment on issues using another language.
-
-## License
-
-[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
