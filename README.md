@@ -3,15 +3,18 @@ Udacity Projects
 
 # Unit Testing with Jasmine
 
-In this project was web-based application that reads RSS feeds, that included Jasmine and an complete test suite. 
+This project used a web-based application that reads RSS feeds, which included Jasmine and a complete set of tests. 
 
 ## How Works
 
 I was tasked with writing the remaining specifications and tests in Jasmine to complete the suite.
 I used Jasmine to write a number of tests for the application. These check the underlying logic as well as the event handling and DOM manipulation.
 
+The results of all tests are displayed in a Jasmine container at the bottom of the browser. These list the tests performed and indicate which ones met the stated specifications. When a test fails, Jasmine produces an error message and trace for the failure.
+
 ## Getting Started
-Download the GitHub source code. Open the .css,fonts,jasmine and js and html files with a text editor. To open the index.html file with any browser.
+
+Download the GitHub source code. Open the .css, fonts, jasmine and js and html files with a text editor. To open the index.html file with any browser.
 
 ### Prerequisites
 
