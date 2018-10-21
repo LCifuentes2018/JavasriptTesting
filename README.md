@@ -7,7 +7,7 @@ This project used a web-based application that reads RSS feeds, which included J
 
 ## How Works
 
-Wrote JavaScript unit tests using jasmine for a small app that calls RSS feeds from several sources.
+I wrote JavaScript unit tests using jasmine for an application that calls RSS feeds.
 
 The results of all tests are displayed in a Jasmine container at the bottom of the browser. These list the tests performed and indicate which ones met the stated specifications. When a test fails, Jasmine produces an error message and trace for the failure.
 
